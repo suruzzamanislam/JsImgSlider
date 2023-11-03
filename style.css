@@ -1,0 +1,36 @@
+.container{
+    width: 70%;
+    height: 70vh;
+    background-image: url(img/product1.jpg);
+    margin: 100px auto;
+    position: relative;
+    box-shadow: 0 0 50px  gray;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.btn{
+    background-color: white;
+    font-size: 30px;
+    padding: 0px 18px;
+    position: absolute;
+    box-shadow: 0 0 10px black;
+    border: none;
+
+}
+.btn:hover{
+    background-color: aquamarine;
+}
+.btn-left{
+    top: 50%;
+    left: -30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.btn-right{
+    top: 50%;
+    right: -30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
